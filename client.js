@@ -1,7 +1,7 @@
 const WebSocket = require('ws');
 
 // Connect to the WebSocket server
-const ws = new WebSocket('ws://localhost:8080');
+const ws = new WebSocket('wss://testws-yj2i.onrender.com');
 
 // Handle connection open
 ws.on('open', function open() {
